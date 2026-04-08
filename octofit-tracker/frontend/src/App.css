@@ -1,0 +1,94 @@
+
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #e3e6f3 100%);
+  color: #343a40;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #6f42c1 0%, #5bc0de 100%) !important;
+  box-shadow: 0 2px 8px rgba(111, 66, 193, 0.08);
+}
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: color 0.2s;
+}
+.navbar .navbar-brand img {
+  height: 36px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.navbar .nav-link:hover, .navbar .nav-link.active {
+  color: #ffe082 !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #6f42c1;
+  font-weight: 700;
+}
+
+a, .App-link {
+  color: #5bc0de;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #6f42c1;
+  text-decoration: underline;
+}
+
+.btn-primary, .btn-success, .btn-info {
+  background: linear-gradient(90deg, #6f42c1 0%, #5bc0de 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(111, 66, 193, 0.12);
+  transition: background 0.2s;
+}
+.btn-primary:hover, .btn-success:hover, .btn-info:hover {
+  background: linear-gradient(90deg, #5bc0de 0%, #6f42c1 100%);
+  color: #ffe082;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(111, 66, 193, 0.08);
+  border: none;
+}
+.card-header {
+  background: linear-gradient(90deg, #6f42c1 0%, #5bc0de 100%);
+  color: #fff;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.table {
+  background: #fff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(111, 66, 193, 0.06);
+}
+.table thead {
+  background: #6f42c1;
+  color: #fff;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background: #f3eafe;
+}
+.table-bordered th, .table-bordered td {
+  border-color: #6f42c1;
+}
+
+.alert-info {
+  background: #e3e6f3;
+  color: #6f42c1;
+  border: none;
+  font-weight: 500;
+}
+
+.App-logo {
+  height: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
